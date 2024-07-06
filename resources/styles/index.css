@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  font-family: "Open Sans";
+}
+.section-tittle{
+    color: #181818;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+main{
+   max-width: 1180px;
+   margin: 0 auto;
+}
+.section-description{
+    color: #757575;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-main {
+  padding: 17px 32px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #fd6e0a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-main-outline {
+  padding: 17px 32px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid #fd6e0a;
+  color: #fd6e0a;
+  background-color: transparent;
+margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 226px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #474747;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+.logoName {
+  font-size: 45px;
+  font-weight: 800;
+}
+header {
+  background-image: url(./../images/developer.png),
+    url(./../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-color: #FFF8F3;
+}
+/* Banner style  */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 35px 0px 226px;
+  align-items: center;
+}
+.banner > .content {
+  max-width: 580px;
+  line-height: 165%;
+}
+.banner > .content > .banner-description {
+  color: #757575;
+}
+.banner > .content > .geeting-text {
+  color: #757575;
+  font-size: 45px;
+  font-weight: 500;
+}
+.myname {
+  font-size: 80px;
+}
+.banner img {
+  width: 580px;
+}
+
+
+.about{
+    padding: 131px 156px;
+    background-color: #FFF8F3;
+    margin: 131px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+
+}
+.section-footer{
+    display: flex;
+    justify-content: space-around;
+}
