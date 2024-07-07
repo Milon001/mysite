@@ -18,6 +18,20 @@ main{
 main section{
   margin: 131px 0px;
 }
+
+footer{
+  background-color: #FFF8F3;
+
+  /* max-width: 1180px;
+  margin: 0px auto; */
+}
+footer section{
+  max-width: 1180px;
+  margin: 131px auto;
+  padding: 50px 0px;
+  margin-bottom: 0px;
+}
+
 .section-description{
     color: #757575;
     font-size: 15px;
@@ -190,3 +204,46 @@ color: #474747;
 .cv-btn{
   margin-top: 35px;
 }
+
+/* contact-section   */
+.contact-section{
+  display: flex;
+  gap: 117px;
+
+}
+
+.let-tittle{
+font-size: 35px;
+}
+.let-description{
+color: #474747;
+margin-bottom: 30px;
+
+}
+.form-tittle{
+  font-size: 35px;
+  }
+
+  .form>input{
+    display: block;
+    width: 461px;
+    padding: 20px 20px;
+    margin: 24px 0px;
+    border: none;
+    font-size: 16px;
+
+  }
+  .form>textarea{
+    display: block;
+    width: 461px;
+    padding: 20px 20px;
+    margin: 24px 0px;
+    border: none;
+    font-size: 16px;
+  }
+
+  .let-socials{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+  }
