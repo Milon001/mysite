@@ -10,7 +10,7 @@
 }
 main{
    max-width: 1180px;
-   margin: 0 auto;
+   margin: 131px auto;
 }
 .section-description{
     color: #757575;
@@ -109,7 +109,46 @@ header {
     border-radius: 8px;
 
 }
-.section-footer{
+.about>.section-footer{
     display: flex;
     justify-content: space-around;
+}
+
+
+.skills{
+  /* background-color: #FFF8F3; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  
+  
+  text-align: center;
+justify-content: space-between;
+
+}
+
+.card{
+  width: 207px;
+  box-shadow: 6px 0px 35px -30px #757575;
+  padding: 30px;
+  min-height: 267px;
+  /* margin: 0px 24px; */
+  border-radius: 5px;
+}
+
+.skills>.section-footer{
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+
+  
+  
+}
+.skills>.section-description{
+  padding: 31px 156px;
+  color: #757575;
+}
+.skills>.card>p{
+
+  color: #757575;
 }
