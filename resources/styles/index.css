@@ -8,9 +8,15 @@
     font-weight: bold;
     margin-bottom: 2px;
 }
+.text-center{
+  text-align: center;
+}
 main{
    max-width: 1180px;
-   margin: 131px auto;
+   margin: 0px auto;
+}
+main section{
+  margin: 131px 0px;
 }
 .section-description{
     color: #757575;
@@ -102,7 +108,7 @@ header {
 .about{
     padding: 131px 156px;
     background-color: #FFF8F3;
-    margin: 131px 0px;
+  
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -115,40 +121,72 @@ header {
 }
 
 
+/* skills section css  */
+
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
 .skills{
-  /* background-color: #FFF8F3; */
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  
-  
-  text-align: center;
-justify-content: space-between;
-
-}
-
-.card{
-  width: 207px;
-  box-shadow: 6px 0px 35px -30px #757575;
   padding: 30px;
-  min-height: 267px;
-  /* margin: 0px 24px; */
-  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
-.skills>.section-footer{
+.skills-section>.section-description{
+padding: 35px 135px;
+}
+/* skills section css end */
+
+.resume-container{
   display: flex;
-  justify-content: space-between;
-  text-align: start;
-
-  
-  
+  gap: 70px;
 }
-.skills>.section-description{
-  padding: 31px 156px;
+.edu-name{
+  font-size: 30px;
+  color: #474747;
+
+}
+.edu-tittle{
+font-size: 25px;
+font-weight: bold;
+color: #474747;
+
+}
+.edu-description{
+  line-height: 25px;
+}
+.edu-range{
+  font-size: 20px;
+  font-weight: 600;
   color: #757575;
 }
-.skills>.card>p{
+.resume-section>.section-tittle{
+  margin: 35px;
+}
 
+/* expriance  */
+.expriance-name{
+  font-size: 30px;
+  color: #474747;
+
+}
+.expriance-tittle{
+font-size: 25px;
+font-weight: bold;
+color: #474747;
+
+}
+.expriance-description{
+  line-height: 25px;
+}
+.expriance-range{
+  font-size: 20px;
+  font-weight: 600;
   color: #757575;
+}
+.resume-section>.section-tittle{
+  margin: 35px;
+}
+.cv-btn{
+  margin-top: 35px;
 }
